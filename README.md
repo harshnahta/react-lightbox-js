@@ -22,7 +22,7 @@ class Example extends Component {
   const
   render() {
     return <ReactLightbox 
-    images={images} 
+    images={imagesArr} 
     imageSrcKey={'src'} 
     imageAltKey={'src'}
     onClose={onClose}
