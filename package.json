@@ -9,6 +9,15 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "keywords": [
+    "react",
+    "reactjs lightbox",    
+    "lightboxjs",
+    "lightbox",
+    "react lightbox",
+    "lightbox gallery",
+    "simple easy lightbox"
+  ],
   "engines": {
     "node": ">=10"
   },
