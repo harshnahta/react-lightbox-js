@@ -41,6 +41,7 @@ onClose = ()=>{
     />
   }
 }
+```
 
 #### Options
 |  **Option** |  **Type** |  **Default value** | **Description**   |
@@ -59,7 +60,6 @@ onClose = ()=>{
 |  `slideAnimationDuration` |  `string`  | '600ms'  | Slider animation duration. |
 |  `overlayBackgroundColor` |  `string`  | 'rgba(0, 0, 0, 0.5)'  | Overlay background color. |
 |  `objectFit` |  `string`  | `fill`  | Image object property style. i.e. cover,contain,fill etc. |
-```
 
 #### Example first: images having keys in array
 
