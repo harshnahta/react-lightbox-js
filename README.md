@@ -37,7 +37,7 @@ class Example extends Component {
               imageSrcKey={'src'}
               imageAltKey={'src'}
               onClose={onClose}
-              isOpen={isOpen}
+              isOpen={this.state.isOpen}
             />
   }
 }
@@ -81,7 +81,7 @@ class Example extends Component {
               images = {[{src:'1.png'},{src:'2.png'}]}
               imageSrcKey = {'src'}
               imageAltKey = {'src'}
-              isOpen = {true}
+              isOpen = {this.state.isOpen}
               onClose = {onClose}
               isZoom = {true}
               defaultZoom = {false}
@@ -117,7 +117,7 @@ class Example extends Component {
               images = {['1.png','2.png']}
               imageSrcKey = {''}
               imageAltKey = {''}
-              isOpen = {true}
+              isOpen = {this.state.isOpen}
               onClose = {onClose}
               isZoom = {true}
               defaultZoom = {false}
