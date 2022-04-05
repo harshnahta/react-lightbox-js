@@ -13,7 +13,7 @@ npm install --save react-lightbox-js
 ## Usage
 
 ```jsx
-import React, { Component,useState } from 'react'
+import React, { Component } from 'react'
 
 import ReactLightbox from 'react-lightbox-js'
 import 'react-lightbox-js/dist/index.css'
@@ -21,24 +21,24 @@ import 'react-lightbox-js/dist/index.css'
 const imagesArr=[{src:'1.png'},{src:'2.png'}]
 
 class Example extends Component {
-constructor() {
-		super();
-		this.state = {
-			isOpen: true,
-		};
-	}
-onClose = ()=>{
-  // called when onClose method triggers i.e. when modal is closed
-  setState({isOpen:false})
-}
+  constructor() {
+      super();
+      this.state = {
+        isOpen: true,
+      };
+  }
+  onClose = ()=>{
+    // called when onClose method triggers i.e. when modal is closed
+    setState({isOpen:false})
+  }
   render() {
     return <ReactLightbox
-    images={imagesArr}
-    imageSrcKey={'src'}
-    imageAltKey={'src'}
-    onClose={onClose}
-    isOpen={isOpen}
-    />
+              images={imagesArr}
+              imageSrcKey={'src'}
+              imageAltKey={'src'}
+              onClose={onClose}
+              isOpen={isOpen}
+            />
   }
 }
 ```
@@ -65,16 +65,16 @@ onClose = ()=>{
 
 ```js
 class Example extends Component {
-constructor() {
-		super();
-		this.state = {
-			isOpen: true,
-		};
-	}
-onClose = ()=>{
-  // called when onClose method triggers i.e. when modal is closed
-  setState({isOpen:false})
-}
+  constructor() {
+      super();
+      this.state = {
+        isOpen: true,
+      };
+    }
+  onClose = ()=>{
+    // called when onClose method triggers i.e. when modal is closed
+    setState({isOpen:false})
+  }
   render() {
     return <ReactLightbox
               sliderIndex = {0}
@@ -101,16 +101,16 @@ onClose = ()=>{
 
 ```js
 class Example extends Component {
-constructor() {
-		super();
-		this.state = {
-			isOpen: true,
-		};
-	}
-onClose = ()=>{
-  // called when onClose method triggers i.e. when modal is closed
-  setState({isOpen:false})
-}
+  constructor() {
+      super();
+      this.state = {
+        isOpen: true,
+      };
+    }
+  onClose = ()=>{
+    // called when onClose method triggers i.e. when modal is closed
+    setState({isOpen:false})
+  }
   render() {
     return <ReactLightbox
               sliderIndex = {0}

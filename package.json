@@ -1,17 +1,16 @@
 {
   "name": "react-lightbox-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easy react js light box modal. It comes with manually adjust whatever user required.",
   "private": false,
   "author": "Harsh Nahta",
   "license": "MIT",
   "repository": "https://github.com/harshnahta/react-lightbox-js/tree/master",
   "main": "dist/index.js",
-  "module": "dist/index.modern.js",
   "source": "src/index.js",
   "keywords": [
     "react",
-    "reactjs lightbox",    
+    "reactjs lightbox",
     "lightboxjs",
     "lightbox",
     "react lightbox",
@@ -22,8 +21,8 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs"
+    "build": "microbundle-crl --format cjs",
+    "start": "microbundle-crl watch --format cjs"
   },
   "peerDependencies": {
     "react": "^16.0.0"
