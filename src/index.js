@@ -20,9 +20,24 @@ const LightBoxModal = ({
   objectFit = "fill",
 }) => {
   const getZoomValues = () => {
+    try {
+      const obj = getObject(zoomValues);
+      return obj;
+    } catch (e) {
+      const obj = getObject(["1", "1.5", "2", "2.5"]);
+      return obj;
+    }
+  };
+  const getObject = (value) => {
     const obj = {};
-    for (let i = 0; i < zoomValues.length; i++)
-      obj[i] = `scale(${zoomValues[i]})`;
+    for (let i = 0; i < value.length; i++) {
+      if (!isNaN(parseFloat(value[i]))) {
+        if (i === 0 && parseFloat(value[i]) > 1) obj[i] = `scale(1)`;
+        else obj[i] = `scale(${value[i]})`;
+      } else {
+        throw new Error("Invalid Values.");
+      }
+    }
     return obj;
   };
   return (
@@ -103,7 +118,7 @@ const LoadModal = ({
 
   useEffect(() => {
     // outeside click event start
-    const outSideModalClickEvent = () => {
+    const outSideModalClickEvent = (event) => {
       // eslint-disable-next-line no-undef
       if (screen && !screen.current?.contains(event.target)) {
         removeListener();

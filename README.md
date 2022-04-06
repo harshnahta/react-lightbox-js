@@ -56,7 +56,7 @@ class Example extends Component {
 |  `defaultZoom` |  `boolean`  | false  | Show image to be zoom when modal opened |
 |  `isEnlarge` |  `boolean`  | true  | Show or hide enlarge screen feature. |
 |  `defaultFullScreen` |  `boolean`  | false  | Default screen to be full screen or not. |
-|  `zoomValues` |  `array`  | ['1', '1.5', '2', '2.5']  | Zoom values i.e. values to be image zoom in percent. Note: 1 means 100% 1.5 means 150 percent. Provide values in required format. |
+|  `zoomValues` |  `array`  | ['1', '1.5', '2', '2.5']  | Zoom values i.e. values to be image zoom in percent. Note: 1 means 100% 1.5 means 150 percent. Provide values in required format. **Value on Zero Index should be 1 or below one(i.e. 1,0.9,0.85 etc). If value is greater 1 in Zero Index then it'll be auto converted into default 1** |
 |  `slideAnimationDuration` |  `string`  | '600ms'  | Slider animation duration. |
 |  `overlayBackgroundColor` |  `string`  | 'rgba(0, 0, 0, 0.5)'  | Overlay background color. |
 |  `objectFit` |  `string`  | `fill`  | Image object property style. i.e. cover,contain,fill etc. |
