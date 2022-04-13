@@ -8,7 +8,7 @@
 npm install --save react-lightbox-js
 ```
 
-**React Lightbox js** gives you the ability to add lightbox functionality which can be managed/customized manually by the user/as per requirement. It is easy to use and comes with many features and more features coming in the future.
+**React Lightbox js** gives you the ability to add lightbox functionality which can be managed/customized manually by the user/as per requirement. It is easy to use and comes with many features. The latest version comes with some performance enhancement and few bugs fixes. Also new option added **imageBackgroundColor**. More features and options coming in the future, stay tune with us.
 
 ## Usage
 
@@ -58,8 +58,9 @@ class Example extends Component {
 |  `defaultFullScreen` |  `boolean`  | false  | Default screen to be full screen or not. |
 |  `zoomValues` |  `array`  | ['1', '1.5', '2', '2.5']  | Zoom values i.e. values to be image zoom in percent. Note: 1 means 100% 1.5 means 150 percent. Provide values in required format. **Value on Zero Index should be 1 or below one(i.e. 1,0.9,0.85 etc). If value is greater 1 in Zero Index then it'll be auto converted into default 1** |
 |  `slideAnimationDuration` |  `string`  | '600ms'  | Slider animation duration. |
-|  `overlayBackgroundColor` |  `string`  | 'rgba(0, 0, 0, 0.5)'  | Overlay background color. |
+|  `overlayBackgroundColor` |  `string`  | 'rgba(0, 0, 0, 0.5)'  | Overlay background color. **It'll have no effect on full screen mode.** |
 |  `objectFit` |  `string`  | `fill`  | Image object property style. i.e. cover,contain,fill etc. |
+|  `imageBackgroundColor` |  `string`  | 'rgba(0, 0, 0, 0.5)'  | Background color of image container. This feature is usefull with **objectFit:'contain'** property. |
 
 #### Example first: images having keys in array
 
@@ -90,6 +91,7 @@ class Example extends Component {
               zoomValues = {['1', '1.5', '2', '2.5']}
               slideAnimationDuration = {'600ms'}
               overlayBackgroundColor = {'rgba(0, 0, 0, 0.5)'}
+              imageBackgroundColor = {'rgba(0, 0, 0, 0.9)'}
               objectFit = {`fill`}
             />
   }
@@ -126,6 +128,7 @@ class Example extends Component {
               zoomValues = {['1', '1.5', '2', '2.5']}
               slideAnimationDuration = {'600ms'}
               overlayBackgroundColor = {'rgba(0, 0, 0, 0.5)'}
+              imageBackgroundColor = {'rgba(0, 0, 0, 0.9)'}
               objectFit = {`fill`}
             />
   }

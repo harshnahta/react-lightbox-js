@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
 ::selection {
   color: transparent !important;
   background: transparent !important;
@@ -11,7 +19,6 @@
   position: absolute;
   inset: 0px;
   border: none;
-  background-color: rgba(0, 0, 0, 0.55);
   overflow: hidden;
   border-radius: 0px;
   outline: none;
@@ -20,8 +27,6 @@
   height: 80%;
   top: 10%;
   left: 10%;
-  /* transition-property: transform;
-transition: width 300ms, height 300ms; */
 }
 .customSlider {
   position: relative;
@@ -31,18 +36,14 @@ transition: width 300ms, height 300ms; */
 .inner {
   display: flex;
   height: 100%;
+  width: 100%;
 }
 .image {
   flex-shrink: 0;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition-property: transform;
-  text-align: center;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;    
+  transition: transform .4s ease;   
 }
 img {
   position: relative;
