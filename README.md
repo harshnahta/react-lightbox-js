@@ -15,7 +15,7 @@ npm install --save react-lightbox-js
 ```jsx
 import React, { Component } from 'react'
 
-import ReactLightbox from 'react-lightbox-js'
+import { ReactLightbox } from 'react-lightbox-js'
 import 'react-lightbox-js/dist/index.css'
 
 const imagesArr=[{src:'1.png'},{src:'2.png'}]

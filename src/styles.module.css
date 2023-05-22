@@ -1,6 +1,6 @@
 ::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
@@ -42,8 +42,8 @@
   flex-shrink: 0;
   width: 100vw;
   height: 100vh;
-  position: relative;    
-  transition: transform .4s ease;   
+  position: relative;
+  transition: transform 0.4s ease;
 }
 img {
   position: relative;
@@ -155,13 +155,13 @@ ul {
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIj48cGF0aCBkPSJtIDEsMyAxLjI1LC0xLjI1IDcuNSw3LjUgNy41LC03LjUgMS4yNSwxLjI1IC03LjUsNy41IDcuNSw3LjUgLTEuMjUsMS4yNSAtNy41LC03LjUgLTcuNSw3LjUgLTEuMjUsLTEuMjUgNy41LC03LjUgLTcuNSwtNy41IHoiIGZpbGw9IiNGRkYiLz48L3N2Zz4=)
     no-repeat 50%;
 }
-.enImg{
+.enImg {
   background: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDQ4IDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIA0KZmlsbD0icmdiKDI1MSwgMjUxLCAyNTEpIg0KZD0ibTAgMTgwdi0xMjRjMC0xMy4zIDEwLjctMjQgMjQtMjRoMTI0YzYuNiAwIDEyIDUuNCAxMiAxMnY0MGMwIDYuNi01LjQgMTItMTIgMTJoLTg0djg0YzAgNi42LTUuNCAxMi0xMiAxMmgtNDBjLTYuNiAwLTEyLTUuNC0xMi0xMnptMjg4LTEzNnY0MGMwIDYuNiA1LjQgMTIgMTIgMTJoODR2ODRjMCA2LjYgNS40IDEyIDEyIDEyaDQwYzYuNiAwIDEyLTUuNCAxMi0xMnYtMTI0YzAtMTMuMy0xMC43LTI0LTI0LTI0aC0xMjRjLTYuNiAwLTEyIDUuNC0xMiAxMnptMTQ4IDI3NmgtNDBjLTYuNiAwLTEyIDUuNC0xMiAxMnY4NGgtODRjLTYuNiAwLTEyIDUuNC0xMiAxMnY0MGMwIDYuNiA1LjQgMTIgMTIgMTJoMTI0YzEzLjMgMCAyNC0xMC43IDI0LTI0di0xMjRjMC02LjYtNS40LTEyLTEyLTEyem0tMjc2IDE0OHYtNDBjMC02LjYtNS40LTEyLTEyLTEyaC04NHYtODRjMC02LjYtNS40LTEyLTEyLTEyaC00MGMtNi42IDAtMTIgNS40LTEyIDEydjEyNGMwIDEzLjMgMTAuNyAyNCAyNCAyNGgxMjRjNi42IDAgMTItNS40IDEyLTEyeiIvPg0KPC9zdmc+)
-  no-repeat 50%;
+    no-repeat 50%;
 }
-.shrinkBtn {  
+.shrinkBtn {
   display: none;
 }
-.enBtn {  
+.enBtn {
   display: block;
 }
