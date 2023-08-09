@@ -32,6 +32,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm login
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
