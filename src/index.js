@@ -48,6 +48,10 @@ export const ReactLightbox = ({
     }
     return obj
   }
+  if (!isOpen) {
+    return null
+  }
+
   return (
     <LoadModal
       styles={styles}

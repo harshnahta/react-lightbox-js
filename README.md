@@ -8,7 +8,63 @@
 npm install --save react-lightbox-js
 ```
 
-**React Lightbox js** gives you the ability to add lightbox functionality which can be managed/customized manually by the user/as per requirement. It is easy to use and comes with many features. The latest version comes with some performance enhancement and few bugs fixes. Also new option added **imageBackgroundColor**. More features and options coming in the future, stay tune with us.
+# React Lightbox js - User Manual and Updates
+
+Welcome to React Lightbox js! This library empowers you with the flexibility to seamlessly integrate lightbox functionality into your React applications, allowing for manual management and customization based on your unique requirements. With an intuitive interface and a plethora of features, React Lightbox js simplifies the process of creating engaging and interactive image galleries.
+
+## Key Features:
+
+- **Manual Control:** Take charge of your lightbox interactions and tailor them to your needs.
+- **Ease of Use:** Effortlessly integrate and configure lightboxes with minimal setup.
+- **Performance Enhancements:** The latest version includes performance optimizations to ensure a smooth user experience.
+- **Bug Fixes:** We've diligently addressed various bugs to provide a more reliable and stable lightbox solution.
+- **imageBackgroundColor:** Customize the background color of your lightbox images to match your design aesthetic.
+
+## Getting Started:
+
+To begin using React Lightbox js, follow these simple steps:
+
+1. Install the package via npm or yarn:
+
+   ```bash
+   npm install react-lightbox-js
+
+
+# React Lightbox js - CodeSandbox Example
+
+Welcome to the React Lightbox js CodeSandbox example! In this sandbox, you can explore and interact with a live implementation of React Lightbox js. This example showcases how to integrate and customize lightbox functionality into a React application.
+
+## Live Example:
+
+Check out the live example on CodeSandbox: [![Live Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-lightbox-js-tqimi2)
+
+## How to Use:
+
+1. Open the [Live Example](https://codesandbox.io/s/react-lightbox-js-tqimi2) on CodeSandbox.
+2. Explore the implemented React components and code in the **src** directory.
+3. Observe how the lightbox functionality is integrated and how the `imageBackgroundColor` option is used.
+4. Make changes and experiment with the code to see how it affects the lightbox behavior and appearance.
+5. Feel free to modify and adapt the example to your own projects.
+
+
+# [react-lightbox-js] - Latest Update
+
+We're thrilled to announce the release of the latest version of [react-lightbox-js]! This update brings a set of significant user interface enhancements and functional fixes to elevate your experience with the package.
+
+**What's New:**
+
+1. **Modal Interaction Improvement:** In response to user feedback, we have diligently addressed an issue that users were encountering when attempting to close or hide modals. With this update, you can expect a smoother and more intuitive modal interaction.
+
+2. **Enhanced Sliding Image Functionality:** We have resolved an issue specifically related to sliding images in the "without zoom" mode. This means you can now seamlessly navigate through images without any disruptions.
+
+We greatly value your input, and your feedback has been invaluable in shaping this update. As we continue to strive for excellence, we encourage you to share your thoughts and suggestions with us.
+
+**Getting Started:**
+
+To take advantage of these improvements, make sure to update your [Your Package Name] to the latest version. You can do this by running the following command in your terminal:
+
+```bash
+npm update react-lightbox-js
 
 ## Usage
 

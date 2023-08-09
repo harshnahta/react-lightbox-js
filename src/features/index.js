@@ -90,7 +90,6 @@ const LoadModal = (props) => {
         zoomIndex: 0
       }))
       window.onresize = () => {
-        console.log(window)
         transformImage(imageBlock.current, false)
       }
     } else {

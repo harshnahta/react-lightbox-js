@@ -10,18 +10,24 @@ const App = () => {
   const [isOpen, setState] = useState(true)
 
   const onClose = () => {
+    console.log('here===')
     // called when onClose method triggers i.e. when modal is closed
     setState(false)
   }
 
   return (
-    <ReactLightbox
-      images={imagesArr}
-      imageSrcKey={'src'}
-      imageAltKey={'src'}
-      onClose={onClose}
-      isOpen={isOpen}
-    />
+    <>
+      <ReactLightbox
+        images={imagesArr}
+        imageSrcKey={'src'}
+        imageAltKey={'src'}
+        onClose={onClose}
+        isOpen={isOpen}
+      />
+      <button onClick={() => setState((preState) => !preState)}>
+        SHow/Hide
+      </button>
+    </>
   )
 }
 
