@@ -11,7 +11,7 @@
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "publishConfig": {
-    "@harshnahta:registry": "https://www.npmjs.com/package/"
+    "@harshnahta:registry": "https://registry.npmjs.org"
   },
   "engines": {
     "node": ">=10"
