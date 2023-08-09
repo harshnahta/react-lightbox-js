@@ -63,10 +63,11 @@ We greatly value your input, and your feedback has been invaluable in shaping th
 
 To take advantage of these improvements, make sure to update your [react-lightbox-js] to the latest version. You can do this by running the following command in your terminal:
 
-```bash
-npm update react-lightbox-js
+    ```bash
+    npm update react-lightbox-js
 
-## Usage
+
+## How to Use:
 
 ```jsx
 import React, { Component } from 'react'
