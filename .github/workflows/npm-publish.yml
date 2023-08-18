@@ -23,5 +23,5 @@ jobs:
       - run: npm publish --access public
       # for publishing, npm need authorization. We add the NPM token to the environment which will take care of authorization to publish to the package
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
+          NPM_SECRET: ${{secrets.NPM_SECRET}}
 
