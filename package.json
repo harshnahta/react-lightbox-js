@@ -10,9 +10,6 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
-  "publishConfig": {
-    "@harshnahta:registry": "https://registry.npmjs.org"
-  },
   "engines": {
     "node": ">=10"
   },
